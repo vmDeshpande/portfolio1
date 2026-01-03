@@ -2,19 +2,22 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import AnimatedCursorProvider from "@/components/AnimatedCursorProvider";
-import ClientOnlyPets from "@/components/ClientOnlyPets"
+import ClientOnlyPets from "@/components/ClientOnlyPets";
 import "./globals.css";
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://vmdeshpande.github.io/portfolio-website/"),
+
   title: "Vedant Deshpande - Full-Stack Developer",
   description: "Full-stack developer building modern web & AI-powered systems",
+
   icons: {
     icon: "/icon.svg",
   },
-}
+};
 
 export default function RootLayout({
   children,
