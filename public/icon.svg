@@ -1,0 +1,43 @@
+<svg
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background -->
+  <rect width="512" height="512" rx="120" fill="#0B1220" />
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#FACC15" />
+    </linearGradient>
+  </defs>
+
+  <!-- Brackets -->
+  <path
+    d="M180 140C150 140 140 160 140 180V332C140 352 150 372 180 372"
+    stroke="url(#accent)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+  <path
+    d="M332 140C362 140 372 160 372 180V332C372 352 362 372 332 372"
+    stroke="url(#accent)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <!-- Slash -->
+  <path
+    d="M280 140L232 372"
+    stroke="url(#accent)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <!-- AI Node -->
+  <circle cx="256" cy="256" r="8" fill="#22D3EE" />
+</svg>
