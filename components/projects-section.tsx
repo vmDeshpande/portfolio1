@@ -33,7 +33,7 @@ export function ProjectsSection() {
       title: "AI Agent Workflow Automation",
       description:
         "An open-source platform for designing and orchestrating AI agents using modular, event-driven workflows, focused on automation and task coordination.",
-      image: "/ai-agent-workflow-automation-platform.jpg",
+      image: "projects/ai-agent-workflow-automation-platform.jpg",
       tags: ["React", "Node.js", "TypeScript", "AI Agents", "Automation"],
       github: "https://github.com/vmDeshpande/ai-agent-automation",
       Demo: "https://vmdeshpande.github.io/ai-automation-platform-website/",
@@ -43,7 +43,7 @@ export function ProjectsSection() {
       title: "Secure & Share Government Documents",
       description:
         "A secure web application for storing and sharing government documents with family members, featuring authentication, access control, and activity logging.",
-      image: "/secure-and-share-government-documents.jpg",
+      image: "projects/secure-and-share-government-documents.jpg",
       tags: ["Node.js", "MongoDB", "Firebase", "Security"],
       github:
         "https://github.com/vmDeshpande/Secure-and-Share-Government-Documents",
@@ -54,7 +54,7 @@ export function ProjectsSection() {
       title: "Environmental Data Analysis",
       description:
         "A data analysis project focused on exploring and visualizing environmental datasets to identify trends and insights using Python.",
-      image: "/environment-data-analysis.jpg",
+      image: "projects/environment-data-analysis.jpg",
       tags: ["Python", "Data Analysis", "Visualization"],
       github: "https://github.com/vmDeshpande/ENVIRONMENT_DATA_ANALYSIS",
       Demo: "",
@@ -64,7 +64,7 @@ export function ProjectsSection() {
       title: "Harmful URL Detector",
       description:
         "A machine learning-based system that identifies potentially harmful or malicious URLs by analyzing patterns and extracted features.",
-      image: "/harmful-url-detector.jpg",
+      image: "projects/harmful-url-detector.jpg",
       tags: ["Python", "Machine Learning", "Cybersecurity"],
       github: "https://github.com/vmDeshpande/HarmfulURLDetector",
       Demo: "",
