@@ -2,17 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import AnimatedCursorProvider from "@/components/AnimatedCursorProvider";
-import dynamic from "next/dynamic"
 import ClientOnlyPets from "@/components/ClientOnlyPets"
 import "./globals.css";
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
-
-// const WanderingCat = dynamic(
-//   () => import("@/components/WanderingCat.client"),
-//   { ssr: false }
-// )
 
 export const metadata: Metadata = {
   title: "Vedant Deshpande - Full-Stack Developer",
