@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repoName = "portfolio" // 🔁 CHANGE THIS to your GitHub repo name
+const repoName = "portfolio1" // 🔁 CHANGE THIS to your GitHub repo name
 
 const nextConfig = {
   output: "export",
